@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.testandroid.miguelbaena.voccesandroidtest.UserDetailActivity">
+
+    <ImageView
+        android:id="@+id/user_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+    <com.testandroid.miguelbaena.voccesandroidtest.UserInfoView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:fieldTitle="@string/user_surname"/>
+
+    <com.testandroid.miguelbaena.voccesandroidtest.UserInfoView
+        android:id="@+id/user_surname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:fieldTitle="@string/user_surname"/>
+
+    <com.testandroid.miguelbaena.voccesandroidtest.UserInfoView
+        android:id="@+id/user_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:fieldTitle="@string/user_phone_number"/>
+
+    <com.testandroid.miguelbaena.voccesandroidtest.UserInfoView
+        android:id="@+id/user_birth_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:fieldTitle="@string/user_birth_date"/>
+
+
+</LinearLayout>
